@@ -142,15 +142,15 @@ body.dark-theme{
     box-shadow: none;
 }
 
-.dark-theme .home_orbe{
+.dark-theme .home_imgbg{
     background: linear-gradient(180deg,
                 hsl(0, 0%, 16%) 80%,
                 hsl(228, 12%, 8%) 100%);
 }
-.dark-theme .value_orbe,
+.dark-theme .value_imgbg,
 .dark-theme .value_accordion-icon,
 .dark-theme .value_accordion-arrow,
-.dark-theme .contact_orbe,
+.dark-theme .contact_imgbg,
 .dark-theme .contact_card i,
 .dark-theme .contact_card-button,
 .dark-theme .subscribe_container{
@@ -326,7 +326,7 @@ body.dark-theme{
 }
 
 .home_title{
-    font-size: var(--biggest-font-Size);
+    font-size: var(--biggest-font-size);
     line-height: 120%;
     margin-bottom: 1.25rem;
 }
@@ -390,7 +390,7 @@ body.dark-theme{
     justify-content: center;
 }
 
-.home_orbe{
+.home_imgbg{
     width: 265px;
     height: 284px;
     background: linear-gradient(180deg,
@@ -539,7 +539,7 @@ body.dark-theme{
     justify-content: center;
 }
 
-.value_orbe{
+.value_imgbg{
     width: 266px;
     height: 316px;
     background-color: hsl(228, 24%, 97%);
@@ -648,7 +648,7 @@ body.dark-theme{
     justify-content: center;
 }
 
-.contact_orbe{
+.contact_imgbg{
     width: 266px;
     height: 316px;
     background-color: hsl(228, 24%, 97%);
@@ -925,7 +925,7 @@ body.dark-theme{
         height: 280px;
     }
 
-    .home_orbe{
+    .home_imgbg{
         width: 240px;
         height: 264px;
     }
@@ -945,8 +945,8 @@ body.dark-theme{
         height: 260px;
     }
 
-    .value_orbe,
-    .contact_orbe{
+    .value_imgbg,
+    .contact_imgbg{
         width: 236px;
         height: 280px;
     }
@@ -986,7 +986,7 @@ body.dark-theme{
         padding-top: 2rem;
     }
 
-    .home_orbe{
+    .home_imgbg{
         align-self: flex-end;
     }
 
@@ -1110,7 +1110,7 @@ body.dark-theme{
         column-gap: 3.5rem;
     }
 
-    .home_orbe{
+    .home_imgbg{
         width: 504px;
         height: 611px;
         border-radius: 256px 256px 0 0;
@@ -1146,8 +1146,8 @@ body.dark-theme{
         column-gap: 5rem;
     }
 
-    .value_orbe,
-    .contact_orbe{
+    .value_imgbg,
+    .contact_imgbg{
         width: 501px;
         height: 641px;
         border-radius: 258px 258px 16px 16px;
